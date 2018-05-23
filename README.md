@@ -1,6 +1,20 @@
-frontend-nanodegree-arcade-game
-===============================
+# Frogger game
+This was a project for a udacity front end web development course.  I was given tools and had to write the JavaScript code
+to make a frogger video game work.
 
-Students should use this [rubric](https://review.udacity.com/#!/projects/2696458597/rubric) for self-checking their submission. Make sure the functions you write are **object-oriented** - either class functions (like Player and Enemy) or class prototype functions such as Enemy.prototype.checkCollisions, and that the keyword 'this' is used appropriately within your class and class prototype functions to refer to the object the function is called upon. Also be sure that the **readme.md** file is updated with your instructions on both how to 1. Run and 2. Play your arcade game.
+## How to run game
+1.  clone this repo https://github.com/Nate03281982/frogger-udacity.git 
+2.  run the index.html file in a browser
 
-For detailed instructions on how to get started, check out this [guide](https://docs.google.com/document/d/1v01aScPjSWCCWQLIpFqvg3-vXLH2e8_SZQKC8jNO0Dc/pub?embedded=true).
+## How to play
+1. move the boy sprite with the arrow keys
+2. to win you must move the boy sprite to the water
+3. you must avoid the cockroaches
+4. if you get hit by a cockroach you lose and your boy sprite moves to the starting position
+5. if you make it to the water you win and the game restarts
+
+## Tools
+1. Uacity provided starting material (game engine, resources, index.html and CSS) 
+2. These items can be accessed at https://github.com/udacity/frontend-nanodegree-arcade-game.git
+3. I also used a collision detection function
+4. This can be accessed at https://stackoverflow.com/questions/2440377/javascript-collision-detection
